@@ -4,23 +4,81 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Ranna Ghar</title>
       <link rel="stylesheet" href="style.css">
 
       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
       <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://kit.fontawesome.com/8ddf321cf8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
       <!-- header section  -->
 
       <header>
-
+            <nav class="  ">
+                  <div class="navbar container mx-auto ">
+                        <div class="flex-1">
+                              <a class="font-bold text-2xl">Ranna Ghar</a>
+                        </div>
+                        <div class="flex-none">
+                              <div class="dropdown dropdown-end">
+                                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                                          <div class="indicator text-2xl">
+                                                <i class="fa-solid fa-book-bookmark"></i>
+                                                <span class="badge badge-sm text-sm indicator-item"></span>
+                                          </div>
+                                    </div>
+                                    <div tabindex="0"
+                                          class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
+                                          <div class="card-body">
+                                                <span class="text-lg font-bold">8 Items</span>
+                                                <span class="text-info">Subtotal: $999</span>
+                                                <div class="card-actions">
+                                                      <button class="btn btn-primary btn-block">View cart</button>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="dropdown dropdown-end text-black">
+                                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                                          <div class="w-10 rounded-full ">
+                                                <img alt="Tailwind CSS Navbar component"
+                                                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                          </div>
+                                    </div>
+                                    <ul tabindex="0"
+                                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                          <li>
+                                                <a class="justify-between">
+                                                      Profile
+                                                      <span class="badge">New</span>
+                                                </a>
+                                          </li>
+                                          <li><a>Settings</a></li>
+                                          <li><a>Logout</a></li>
+                                    </ul>
+                              </div>
+                        </div>
+                  </div>
+            </nav>
+            <!-- banner section  -->
+            <section class=" rounded-lg container mx-auto banner-ranna mt-12 h-80 bg-cover flex items-center"
+                  id="banner-ranna">
+                  <div class=" w-6/12 text-center mx-auto text-white">
+                        <h1 class=" text-center text-2xl  md:text-4xl font-bold mb-8">Ranna-Ghar: The Heart of Bengali
+                              Cuisine</h1>
+                        <p>Discover authentic Bengali recipes, traditional flavors, and kitchen secrets. From classic
+                              dishes to modern twists, Ranna-Ghar brings the taste of home to your table. Let's cook
+                              together!</p>
+                  </div>
+            </section>
       </header>
 
       <!-- main section  -->
 
       <main>
+
 
       </main>
       <!-- footer section  -->
