@@ -24,8 +24,8 @@ const displayRecipes = (data) => {
             recipeCard.innerHTML = `
              <img  class=" rounded-lg w-full " src="${image}">
              <h1 class=" text-2xl font-bold my-5">${name}</h1>
-             <div class="flex gap-3 flex-wrap"> ${spns} </div>
-             <button class="btn mt-6 w-full bg-red-400">Cook this</button>
+             <div class="flex gap-1 flex-wrap"> ${spns} </div>
+            <div class=" flex gap-3 "><button class="btn mt-6 flex-grow bg-green-400 text-white">Book Mark</button> <button class="btn text-white flex-grow mt-6  bg-red-400">Cook now</button> </div>
             
             `
             recipeCont.appendChild(recipeCard)
