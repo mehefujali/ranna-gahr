@@ -11,7 +11,7 @@ lodeAllRecipes()
 const displayRecipes = (data) => {
       const recipeCont = document.getElementById("recipesCont")
       data.map(recipe => {
-            const { name, tags } = recipe
+            const { name, tags, image } = recipe
             console.log(tags);
 
             let spns = ""
@@ -21,6 +21,7 @@ const displayRecipes = (data) => {
             })
             const recipeCard = document.createElement("div")
             recipeCard.innerHTML = `
+             <img src="${image}">
              <h1>${name}</h1>
              <div class="flex gap-3"> ${spns} </div>
             
